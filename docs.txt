@@ -1,0 +1,22 @@
+1. find the team id
+2. find all matches for a particular team. look for scheduled matches instead of completed ones. 
+
+	Match 	
+
+	Show all matches for a particular team. 	
+	
+	/v2/teams/{id}/matches/ 	
+
+	dateFrom={DATE}
+	dateTo={DATE}
+	status={STATUS}
+	venue={VENUE}
+	limit={LIMIT}
+
+3. Notify the user based on some time. 
+
+
+https://github.com/amosbastian/football/blob/master/football/football.py
+
+https://www.football-data.org/documentation/quickstart
+
